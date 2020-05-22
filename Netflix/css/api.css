@@ -1,0 +1,110 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  background: url("../images/background\ img.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#template {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background: #fff;
+  width: 1200px;
+  margin: 47px auto;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+#template div {
+  width: 24%;
+  /* background-color: #eee; */
+  margin: 10px 0px;
+  border: 2px solid #ccc;
+}
+
+img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+img:hover {
+  border-radius: 100%;
+  transform: scale(1.5);
+}
+
+a {
+  text-decoration: none;
+  margin: 10px;
+  background-color: #777777;
+  display: block;
+  color: #fff;
+  transform: scale(1);
+  transition: ease-in all 0.7s;
+  border-bottom: 3px solid #111;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+a:hover {
+  background-color: #111;
+}
+
+#formBlock {
+  display: flex;
+  flex-direction: column;
+  margin-top: 13px;
+  /* padding: 10px; */
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+#search {
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px 1px #111151;
+  width: 600px;
+}
+
+#formBlock h1 {
+  text-transform: uppercase;
+  font-size: 40px;
+  color: #fff;
+  font-weight: bolder;
+  margin: 0;
+  padding: 0;
+}
+
+#formBlock p {
+  font-size: 17px;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.afterKey_formBlock {
+  display: flex;
+  justify-content: flex-start !important;
+  height: auto !important;
+}
+form {
+  position: relative;
+}
+
+form i {
+  position: absolute;
+  right: 59px;
+  top: 12px;
+  font-size: 20px;
+  color: #111;
+  text-shadow: 1px 0px 0px red;
+}
